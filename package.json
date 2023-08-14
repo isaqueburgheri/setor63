@@ -1,13 +1,13 @@
 {
   "name": "setor63",
   "version": "1.0.0",
-  "description": "",
+  "description": "Testes",
   "main": "index.js",
   "scripts": {
     "dev": "next dev"
   },
   "keywords": [],
-  "author": "",
+  "author": "IsaqueBurgheri",
   "license": "ISC",
   "dependencies": {
     "next": "^13.4.13",
