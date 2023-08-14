@@ -1,31 +1,35 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
 
 function Home() {
   return (
-    <div className="home-container">
+    <div>
       <header>
-        <h1>Bem-vindo ao Nosso Site Religioso</h1>
+        <nav>
+          <ul>
+            <li><a href="#">Início</a></li>
+            <li><a href="#">Sobre Nós</a></li>
+            <li><a href="#">Ensinamentos</a></li>
+            <li><a href="#">Eventos</a></li>
+          </ul>
+        </nav>
       </header>
       <main>
-        <section className="about">
+        <section>
+          <h1>Bem-vindo ao Nosso Site Religioso</h1>
+          <p>Encontre inspiração espiritual e orientação em nossa comunidade.</p>
+        </section>
+        <section>
           <h2>Sobre Nós</h2>
-          <p>
-            Somos uma comunidade dedicada à fé e espiritualidade, buscando inspiração e orientação em nossa jornada espiritual.
-          </p>
+          <p>Somos uma comunidade dedicada à fé e espiritualidade, buscando inspiração e orientação em nossa jornada espiritual.</p>
         </section>
-        <section className="teachings">
+        <section>
           <h2>Ensinamentos</h2>
-          <p>
-            Nossos ensinamentos são baseados em valores e princípios fundamentais que nos guiam na busca por uma vida significativa e conectada com o divino.
-          </p>
+          <p>Nossos ensinamentos são baseados em valores e princípios fundamentais que nos guiam na busca por uma vida significativa e conectada com o divino.</p>
         </section>
-        <section className="events">
+        <section>
           <h2>Eventos</h2>
-          <p>
-            Junte-se a nós em nossos eventos e cerimônias para compartilhar momentos de oração, reflexão e comunhão.
-          </p>
+          <p>Junte-se a nós em nossos eventos e cerimônias para compartilhar momentos de oração, reflexão e comunhão.</p>
         </section>
       </main>
       <footer>
@@ -35,9 +39,5 @@ function Home() {
   );
 }
 
-ReactDOM.render(
-  <React.StrictMode>
-    <Home />
-  </React.StrictMode>,
-  document.getElementById('root')
-);
+
+export default Home
